@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1fr;
+    height: 1360px;
+}
+
+/*-------------
+    Header   
+    -----------*/
+ 
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin:0px auto 102px;
+    padding-top: 50px;
+    
+}
+.container .title{
+    font-weight: 700;
+    font-size: 2.5em;
+    
+}
+.container .comunication a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+/*----------------------
+    Header info & images
+    -------------------------*/
+
+.info{
+    width: 75%;
+    margin:0px auto 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    justify-items: center;
+    justify-content: center;
+}
+.info-details{
+    height: 400px;
+    width: 850px;
+    text-align: center;
+    align-items: center;
+}
+.info-details h1{
+    font-weight: 700;
+    font-size: 65px;
+    margin: 0px auto 30px;
+}
+.info-details h4{
+    color:#727272 ;
+    font-size: 18px;
+    font-weight: 700;
+}
+.info-details button{
+    width: 180px;
+    height: 64px;
+    background-color: orangered;
+    border-radius: 8px;
+    border: none;
+    color: 
+    #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 30px auto 50px;
+}
+.info-image{
+    height: 100%;
+    object-fit:cover;
+    padding: 0px 0px 60px;
+    width: 100%;
+    object-position:center;
+    justify-content: center;
+}
+
+/*------------------
+       Article     
+       --------------*/
+.article-body{
+    display: flex;
+    width: 60%;
+    margin: 85px auto 130px;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+.article-body .image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(400px);
+    gap: 20px;
+    border-radius: 5px;
+}
+.article-title{
+   height: 300px;
+   width: 100%;
+   margin-left: 200px;
+}
+.article-title h2{
+    font-weight: 500;
+    font-size: 4em;
+    height: 100px;
+    width: 470px;
+    line-height: 53px;
+}
+.article-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 537px;
+    height: 78px;
+    margin: 30px 0px 34px;
+}
+.article-title button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: orange;
+    border: none;
+}
+.container-image{
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------
+       Section Feature
+       --------------*/
+.Feature{
+    display: flex;
+    width: 75%;
+    margin:0px auto 130px;
+}
+.feature-info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+}
+.feature-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.feature-container h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.feature-container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.feature-container h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 10px 0px 10px;
+}
+.feature-container{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+.extra{
+    width: 342px;
+    height: 200px;
+    margin: 0px auto 10px;
+    justify-content:center;
+    margin-bottom: 50px;
+    
+}
+.extra button{
+    padding: 46px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    color: #FFFFFF;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+}
+.extra button span{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+/*---------------------
+      Section Stat   
+      ----------------*/ 
+
+.Stat{
+    width: 75%;
+    margin: 100px auto 120px;
+}
+ .Analitics{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px auto 100px;
+    text-align: center;
+}
+.facts h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.facts p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.facts{
+    height: 60px;
+    width: 550px;
+}
+.statistic{
+    height: 150px;
+    width: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    justify-content: center;
+    padding:50px;
+
+}
+.math{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+}
+.data{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+/*-----------------
+   Footer          
+   --------------------*/
+
+footer{
+    width: 75%;
+    height: 300px;
+    margin:20px auto 20px;
+    text-align: center;
+    
+}
+.footer-paragraph{
+    height: 50px;
+    width: 550px;
+    margin:20px auto 20px;
+    text-align: center;
+
+    
+}
+
